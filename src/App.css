@@ -33,6 +33,7 @@ h1 {
   color: #f7fffe;
   border: 1px solid #ff6f47;
   cursor: pointer;
+  text-align: center;
 }
 
 .todo-container {
@@ -93,7 +94,7 @@ h1 {
   }
 
   .App {
-    width: 85vw;
+    width: 90vw;
   }
 
   h1 {
