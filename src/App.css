@@ -1,0 +1,115 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.App form {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.App input {
+  padding: 7px 5px;
+  font-size: 18px;
+  width: 400px;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.App form button {
+  padding: 7px 5px;
+  font-size: 18px;
+  background: #ff6f47;
+  color: #f7fffe;
+  border: 1px solid #ff6f47;
+  cursor: pointer;
+}
+
+.todo-container {
+  width: 100%;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  width: 100%;
+  height: auto;
+  background: white;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todoText {
+  flex: 8;
+  word-break: break-all;
+}
+
+.btn button {
+  flex: 2;
+  font-size: 16px;
+  border: none;
+}
+
+.check-btn {
+  color: #fff;
+  background-color: green;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.trash-btn {
+  color: #fff;
+  background-color: #f12e2e;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+@media (max-width: 450px) {
+  body {
+    width: 100vw;
+  }
+
+  .App {
+    width: 90vw;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .App input {
+    width: 80%;
+  }
+
+  .todo-container {
+    width: 90%;
+  }
+
+  .btn {
+    padding-left: 15px;
+    display: flex;
+  }
+}
