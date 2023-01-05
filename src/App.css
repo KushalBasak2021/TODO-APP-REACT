@@ -20,12 +20,13 @@ h1 {
 .App input {
   padding: 7px 5px;
   font-size: 18px;
-  width: 400px;
+  width: 80%;
   border: 1px solid #fff;
   outline: none;
 }
 
 .App form button {
+  width: 20%;
   padding: 7px 5px;
   font-size: 18px;
   background: #ff6f47;
@@ -92,7 +93,7 @@ h1 {
   }
 
   .App {
-    width: 90vw;
+    width: 85vw;
   }
 
   h1 {
@@ -105,7 +106,7 @@ h1 {
   }
 
   .todo-container {
-    width: 90%;
+    width: 100%;
   }
 
   .btn {
